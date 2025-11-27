@@ -1,8 +1,8 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.128:8761/eureka
+      defaultZone: http://192.168.56.1:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-    hostname: 192.168.1.128
+    hostname: 192.168.56.1
     non-secure-port: 7000
