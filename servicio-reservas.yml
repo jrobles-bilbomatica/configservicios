@@ -16,3 +16,7 @@ eureka:
     instance-id: ${spring.application.name}:${server.port}
     hostname: 192.168.56.1
     non-secure-port: 8090
+    
+app:
+  servicio-hoteles: http://servicio-hoteles/
+  servicio-vuelos: http://servicio-vuelos/
